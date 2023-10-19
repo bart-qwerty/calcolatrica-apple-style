@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 410px;
+    height: 200px;
+    border-radius: 40px;
+    background-color: rgb(20, 20, 20);
+}
+.grid
+{
+    width: 410px;
+    height: 580px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: end;
+    padding-bottom: 50px;
+    border-radius: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.result h1{
+    color: white;
+    width: 460px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 90px;
+    text-align: right;
+    padding-right: 85px;
+    padding-top: 20px;
+}
+
+.cell{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    background-color: rgb(84, 84, 84);
+    margin: 10px;
+}
+
+.whitetext h1{
+    padding-top: 22.5px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.functions{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    background-color: darkgrey;
+    margin: 10px;
+}
+
+.functions h1{
+    padding-top: 22.5px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    text-align: center;
+}
+
+.operator{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    background-color: rgb(254, 161, 0);
+    margin: 10px;
+}
+.operator h1{
+    padding-top: 22.5px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.numbers{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    background-color: rgb(84, 84, 84);
+    margin: 10px;
+}
+.numbers h1{
+    padding-top: 22.5px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.end-container{
+    width: 410px;
+    margin-top: -40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-center;
+}
+
+.bottom-bar{
+    height: 5px;
+    width: 170px;
+    background-color: whitesmoke;
+    border-radius: 60px;
+    margin-left: 110px;
+    margin-top: 10px;
+
+}
+
+.zero {
+    height: 80px;
+    width: 180px;
+    border-radius: 40px;
+    background-color: rgb(84, 84, 84);
+    margin: 10px;
+}
+
+.zero h1{
+    padding-top: 22.5px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    text-align: left;
+    padding-left: 22.5px;
+    color: whitesmoke;
+}
+
+.numbers:hover,
+.zero:hover,
+.operator:hover,
+.functions:hover {
+    background-color: rgba(255, 122, 34, 0.738);
+}
